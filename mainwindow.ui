@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>640</width><height>400</height></rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="browseButton">
+    <property name="text"><string>Browse</string></property>
+    <property name="geometry"><rect><x>510</x><y>20</y><width>100</width><height>30</height></rect></property>
+   </widget>
+   <widget class="QLineEdit" name="filePathEdit">
+    <property name="geometry"><rect><x>20</x><y>20</y><width>480</width><height>30</height></rect></property>
+   </widget>
+   <widget class="QPushButton" name="compressButton">
+    <property name="text"><string>Compress</string></property>
+    <property name="geometry"><rect><x>140</x><y>70</y><width>120</width><height>40</height></rect></property>
+   </widget>
+   <widget class="QPushButton" name="decompressButton">
+    <property name="text"><string>Decompress</string></property>
+    <property name="geometry"><rect><x>300</x><y>70</y><width>120</width><height>40</height></rect></property>
+   </widget>
+   <widget class="QLabel" name="labelOriginalSize">
+    <property name="geometry"><rect><x>20</x><y>130</y><width>300</width><height>30</height></rect></property>
+    <property name="text"><string>Original Size:</string></property>
+   </widget>
+   <widget class="QLabel" name="labelCompressedSize">
+    <property name="geometry"><rect><x>20</x><y>170</y><width>300</width><height>30</height></rect></property>
+    <property name="text"><string>Compressed Size:</string></property>
+   </widget>
+   <widget class="QLabel" name="labelSpaceSaved">
+    <property name="geometry"><rect><x>20</x><y>210</y><width>300</width><height>30</height></rect></property>
+    <property name="text"><string>Space Saved:</string></property>
+   </widget>
+   <widget class="QLabel" name="labelWarning">
+    <property name="geometry"><rect><x>20</x><y>260</y><width>600</width><height>30</height></rect></property>
+    <property name="text"><string>Status messages appear here.</string></property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
